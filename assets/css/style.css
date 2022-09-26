@@ -21,13 +21,23 @@ header {
     justify-content: space-between;
 }
 
-h1 {
+h1, h2 {
     font-size: 300%;
 }
 
-nav {
+li {
+    float: right;
     padding-top: 16px;
     margin-right: 20px;
-    float: right;
     font-size: 125%;
 }
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+
