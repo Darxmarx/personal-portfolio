@@ -1,6 +1,6 @@
 :root {
     --main-text-color: white;
-    --bg-color: 
+    --figcaption-bg-color: pink;
 }
 
 * {
@@ -40,4 +40,18 @@ li {
     margin: 2%;
 }
 
+.first-project img {
+    max-width: 70%;
+    height: auto;
+    border: 1px solid pink;
+}
 
+.project-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 200%;
+    background-color: var(--figcaption-bg-color);
+    padding-left: 20px;
+    padding-right: 20px;
+}
