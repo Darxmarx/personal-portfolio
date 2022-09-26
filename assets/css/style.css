@@ -21,6 +21,10 @@ header {
     justify-content: space-between;
 }
 
+header img {
+    max-width: 10%;
+}
+
 h1, h2 {
     font-size: 300%;
 }
