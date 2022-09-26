@@ -1,0 +1,33 @@
+:root {
+    --main-text-color: white;
+    --bg-color: 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: normal;
+    color: var(--main-text-color);
+    background-image: linear-gradient(to bottom, lightblue, black);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+nav {
+    padding-top: 16px;
+    margin-right: 20px;
+    float: right;
+    font-size: 125%;
+}
