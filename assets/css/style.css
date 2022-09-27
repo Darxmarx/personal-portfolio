@@ -19,14 +19,13 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 header img {
     max-width: 10%;
-    width: auto;
+    object-fit: contain;
     height: auto;
-    border: 2px solid pink;
 }
 
 h1, h2 {
@@ -62,7 +61,7 @@ li {
 }
 
 .first-project img {
-    width: auto;
+    max-width: 100%;
     height: auto;
     border: 2px solid pink;
 }
@@ -78,7 +77,7 @@ li {
 }
 
 .other-projects img {
-    width: auto;
+    max-width: 100%;
     height: auto;
     border: 2px solid pink;
 }
@@ -94,13 +93,13 @@ li {
 }
 
 /*@media screen and (max-width: 992px) {
-    .first-project {
-       width: 90%;
+    .card {
+       width: 45%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .first-project {
+    .card {
        width: 90%;
     }
 }
