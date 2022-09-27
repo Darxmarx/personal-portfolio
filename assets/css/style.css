@@ -14,6 +14,7 @@ body {
     font-size: normal;
     color: var(--main-text-color);
     background-image: linear-gradient(to bottom, lightblue, black);
+    background-attachment: fixed;
 }
 
 header {
@@ -23,6 +24,9 @@ header {
 
 header img {
     max-width: 10%;
+    width: auto;
+    height: auto;
+    border: 5px solid pink;
 }
 
 h1, h2 {
@@ -44,18 +48,36 @@ li {
     margin: 2%;
 }
 
+.card p {
+    margin: 1%;
+}
+
 .first-project img {
+    align-items: center;
     max-width: 70%;
+    width: auto;
     height: auto;
-    border: 1px solid pink;
+    border: 5px solid pink;
 }
 
 .project-caption {
     position: relative;
     bottom: 100px;
     max-width: 12%;
-    font-size: 200%;
-    background-color: var(--figcaption-bg-color);
-    padding-left: 20px;
-    padding-right: 20px;
+    font-size: 150%;
+    /*background: var(--figcaption-bg-color);*/
+    padding: 10px;
+    /*border: 1px solid pink;*/
+}
+
+@media screen and (max-width: 992px) {
+    .first-project {
+       width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .first-project {
+       width: 90%;
+    }
 }
