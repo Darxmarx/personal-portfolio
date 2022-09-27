@@ -26,7 +26,7 @@ header img {
     max-width: 10%;
     width: auto;
     height: auto;
-    border: 5px solid pink;
+    border: 2px solid pink;
 }
 
 h1, h2 {
@@ -40,27 +40,36 @@ li {
     font-size: 125%;
 }
 
-.card {
+.intro {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 2%;
 }
 
-.card p {
+.intro p {
     margin: 1%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 2%;
 }
 
 .first-project img {
     align-items: center;
-    max-width: 70%;
+    /* max-width: 70%; */
     width: auto;
     height: auto;
-    border: 5px solid pink;
+    border: 2px solid pink;
 }
 
-.project-caption {
+.first-project-caption {
     position: relative;
     bottom: 100px;
     max-width: 12%;
@@ -70,7 +79,14 @@ li {
     /*border: 1px solid pink;*/
 }
 
-@media screen and (max-width: 992px) {
+.other-projects img {
+    /* max-width: 70%; */
+    width: auto;
+    height: auto;
+    border: 2px solid pink;
+}
+
+/*@media screen and (max-width: 992px) {
     .first-project {
        width: 90%;
     }
