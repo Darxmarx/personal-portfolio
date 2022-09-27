@@ -64,6 +64,12 @@ li {
     max-width: 100%;
     height: auto;
     border: 2px solid pink;
+    opacity: 0.5;
+    transition: .75s ease-in-out;
+}
+
+.first-project img:hover {
+    opacity: 1;
 }
 
 .first-project-caption {
@@ -80,6 +86,12 @@ li {
     max-width: 100%;
     height: auto;
     border: 2px solid pink;
+    opacity: 0.5;
+    transition: .75s ease-in-out;
+}
+
+.other-projects img:hover {
+    opacity: 1;
 }
 
 .project-caption {
